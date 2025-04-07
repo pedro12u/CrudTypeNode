@@ -8,10 +8,12 @@ Este projeto é uma API simples de gerenciamento de usuários (CRUD) utilizando 
 - Futuras melhorias e utilização de banco de dados..
 
 ## 📂 Estrutura do Projeto
+```markdown
 📁 src/
   📄 index.ts       # Ponto de entrada da aplicação
   📁 routes/
     📄 userRoutes.ts   # Rotas e lógica do CRUD
+```
     
 ## ▶️ Como rodar o projeto
 1. **Clone o repositório:**
