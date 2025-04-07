@@ -9,9 +9,9 @@ Este projeto é uma API simples de gerenciamento de usuários (CRUD) utilizando 
 
 ## 📂 Estrutura do Projeto
 📁 src/ 
-├── 📄 index.ts # Ponto de entrada da aplicação 
-└── 📁 routes/ 
-└── 📄 userRoutes.ts # Rotas e lógica do CRUD
+📄 index.ts # Ponto de entrada da aplicação 
+📁 routes/ 
+📄 userRoutes.ts # Rotas e lógica do CRUD
 
 ## ▶️ Como rodar o projeto
 
@@ -19,23 +19,27 @@ Este projeto é uma API simples de gerenciamento de usuários (CRUD) utilizando 
 ```bash
 git clone https://github.com/pedro12u/CrudTypeNode.git
 cd seu-repo
+```
 Instale as dependências:
+```bash
 npm install
-
+```
 Inicie o servidor em modo dev:
+```bash
 npm run dev
 "A aplicação estará rodando em: http://localhost:3000"
-
+```
 📬 Endpoints da API
 Base URL: http://localhost:3000/users
 
 🔹 Criar usuário
 POST /users
+```bash
 {
   "nome": "Fulano",
   "email": "fulano@email.com"
 }
-
+```
 🔹 Listar todos os usuários
 GET /users
 
@@ -44,11 +48,12 @@ GET /users/:id
 
 🔹 Atualizar usuário
 PUT /users/:id
+```bash
 {
   "nome": "Fulano Atualizado",
   "email": "novo@email.com"
 }
-
+```
 🔹 Deletar usuário
 DELETE /users/:id
 
