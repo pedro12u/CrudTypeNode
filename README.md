@@ -8,13 +8,12 @@ Este projeto é uma API simples de gerenciamento de usuários (CRUD) utilizando 
 - Futuras melhorias e utilização de banco de dados..
 
 ## 📂 Estrutura do Projeto
-📁 src/ 
-📄 index.ts # Ponto de entrada da aplicação 
-📁 routes/ 
-📄 userRoutes.ts # Rotas e lógica do CRUD
-
+📁 src/
+  📄 index.ts       # Ponto de entrada da aplicação
+  📁 routes/
+    📄 userRoutes.ts   # Rotas e lógica do CRUD
+    
 ## ▶️ Como rodar o projeto
-
 1. **Clone o repositório:**
 ```bash
 git clone https://github.com/pedro12u/CrudTypeNode.git
